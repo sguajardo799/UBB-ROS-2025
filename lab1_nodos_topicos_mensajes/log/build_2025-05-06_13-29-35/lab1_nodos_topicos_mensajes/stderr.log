@@ -1,0 +1,5 @@
+  File "/home/sguajardo/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes/nodo_simple.py", line 16
+    def __name__ == "__main__":
+                 ^^
+SyntaxError: expected '('
+
