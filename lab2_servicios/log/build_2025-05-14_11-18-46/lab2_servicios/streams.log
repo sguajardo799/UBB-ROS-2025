@@ -1,0 +1,28 @@
+[0.606s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab2_servicios': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab2_servicios build --build-base /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build install --record /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/install.log --single-version-externally-managed install_data
+[0.847s] running egg_info
+[0.860s] writing build/lab2_servicios/lab2_servicios.egg-info/PKG-INFO
+[0.860s] writing dependency_links to build/lab2_servicios/lab2_servicios.egg-info/dependency_links.txt
+[0.861s] writing entry points to build/lab2_servicios/lab2_servicios.egg-info/entry_points.txt
+[0.861s] writing requirements to build/lab2_servicios/lab2_servicios.egg-info/requires.txt
+[0.861s] writing top-level names to build/lab2_servicios/lab2_servicios.egg-info/top_level.txt
+[0.892s] reading manifest file 'build/lab2_servicios/lab2_servicios.egg-info/SOURCES.txt'
+[0.893s] writing manifest file 'build/lab2_servicios/lab2_servicios.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] copying lab2_servicios/servidor_simple.py -> /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build/lib/lab2_servicios
+[0.893s] copying lab2_servicios/cliente_simple.py -> /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build/lib/lab2_servicios
+[0.893s] running install
+[0.898s] running install_lib
+[0.916s] copying /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build/lib/lab2_servicios/servidor_simple.py -> /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios
+[0.916s] copying /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build/lib/lab2_servicios/cliente_simple.py -> /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios
+[0.917s] byte-compiling /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios/servidor_simple.py to servidor_simple.cpython-312.pyc
+[0.917s] byte-compiling /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios/cliente_simple.py to cliente_simple.cpython-312.pyc
+[0.918s] running install_data
+[0.918s] running install_egg_info
+[0.933s] removing '/home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios-0.0.0-py3.12.egg-info' (and everything under it)
+[0.934s] Copying build/lab2_servicios/lab2_servicios.egg-info to /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages/lab2_servicios-0.0.0-py3.12.egg-info
+[0.934s] running install_scripts
+[1.039s] Installing cliente_simple script to /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/lab2_servicios
+[1.039s] Installing servicio_simple script to /home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/lab2_servicios
+[1.040s] writing list of installed files to '/home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/install.log'
+[1.060s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab2_servicios' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab2_servicios/install/lab2_servicios/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab2_servicios build --build-base /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/build install --record /home/sguajardo/UBB-ROS-2025/lab2_servicios/build/lab2_servicios/install.log --single-version-externally-managed install_data

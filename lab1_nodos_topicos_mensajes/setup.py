@@ -20,9 +20,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'nodo_s = lab1_nodos_topicos_mensajes.nodo_simple:main',
+            'nodo_simple = lab1_nodos_topicos_mensajes.nodo_simple:main',
             'pub_simple = lab1_nodos_topicos_mensajes.publicador_simple:main',
-            'sub_simple = lab1_nodos_topicos_mensajes.suscriptor_simple:main'
+            'sub_simple = lab1_nodos_topicos_mensajes.suscriptor_simple:main',
+            'pub_imu = lab1_nodos_topicos_mensajes.imu_publisher:main',
+            'sub_twist = lab1_nodos_topicos_mensajes.twist_suscriber:main',
+            'pub_array = lab1_nodos_topicos_mensajes.array_publisher:main'
         ],
     },
 )

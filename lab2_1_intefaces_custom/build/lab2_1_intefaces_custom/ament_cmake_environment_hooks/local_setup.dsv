@@ -1,0 +1,4 @@
+source;share/lab2_1_intefaces_custom/environment/ament_prefix_path.sh
+source;share/lab2_1_intefaces_custom/environment/library_path.sh
+source;share/lab2_1_intefaces_custom/environment/path.sh
+source;share/lab2_1_intefaces_custom/environment/pythonpath.sh

@@ -1,0 +1,7 @@
+{
+  "package_name": "lab2_1_intefaces_custom",
+  "non_idl_tuples": [
+    "/home/sguajardo/UBB-ROS-2025/lab2_1_intefaces_custom:msg/Sphere.msg",
+    "/home/sguajardo/UBB-ROS-2025/lab2_1_intefaces_custom:srv/AddFourInts.srv"
+  ]
+}

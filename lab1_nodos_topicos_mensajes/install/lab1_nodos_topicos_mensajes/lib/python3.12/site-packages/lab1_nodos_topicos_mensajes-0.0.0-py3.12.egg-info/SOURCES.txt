@@ -9,9 +9,12 @@ build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/requires.
 build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/top_level.txt
 build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/zip-safe
 lab1_nodos_topicos_mensajes/__init__.py
+lab1_nodos_topicos_mensajes/array_publisher.py
+lab1_nodos_topicos_mensajes/imu_publisher.py
 lab1_nodos_topicos_mensajes/nodo_simple.py
 lab1_nodos_topicos_mensajes/publicador_simple.py
 lab1_nodos_topicos_mensajes/suscriptor_simple.py
+lab1_nodos_topicos_mensajes/twist_suscriber.py
 resource/lab1_nodos_topicos_mensajes
 test/test_copyright.py
 test/test_flake8.py

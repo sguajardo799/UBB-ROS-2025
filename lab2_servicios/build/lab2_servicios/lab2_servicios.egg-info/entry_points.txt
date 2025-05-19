@@ -1,0 +1,3 @@
+[console_scripts]
+cliente_simple = lab2_servicios.cliente_simple:main
+servicio_simple = lab2_servicios.servidor_simple:main

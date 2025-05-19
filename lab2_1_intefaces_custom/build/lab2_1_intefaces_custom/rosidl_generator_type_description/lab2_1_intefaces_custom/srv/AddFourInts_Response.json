@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "lab2_1_intefaces_custom/srv/AddFourInts_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "lab2_1_intefaces_custom/srv/AddFourInts_Response",
+      "hash_string": "RIHS01_d8875bc44fddf41d5b4e735ce668786a9d9fb506edca78d425e56ffbf7011a43"
+    }
+  ]
+}

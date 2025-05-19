@@ -1,0 +1,10 @@
+  File "/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes/imu_publisher.py", line 35
+    except (KeyboardInterrupt, ExternalShutdownException)
+                                                         ^
+SyntaxError: expected ':'
+
+  File "/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes/twist_suscriber.py", line 25
+    except (KeyboardInterrupt,ExternalShutdownException)
+                                                        ^
+SyntaxError: expected ':'
+

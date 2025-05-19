@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lab2_1_intefaces_custom__py",
+		"source" : "build/lab2_1_intefaces_custom/lab2_1_intefaces_custom__py"
+	}
+}

@@ -1,0 +1,29 @@
+[0.605s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab1_nodos_topicos_mensajes build --build-base /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/build install --record /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/install.log --single-version-externally-managed install_data
+[0.805s] running egg_info
+[0.821s] writing build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/PKG-INFO
+[0.821s] writing dependency_links to build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/dependency_links.txt
+[0.822s] writing entry points to build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/entry_points.txt
+[0.822s] writing requirements to build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/requires.txt
+[0.822s] writing top-level names to build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/top_level.txt
+[0.852s] reading manifest file 'build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info/SOURCES.txt'
+[0.853s] running build
+[0.853s] running build_py
+[0.853s] copying lab1_nodos_topicos_mensajes/array_publisher.py -> /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/build/lib/lab1_nodos_topicos_mensajes
+[0.854s] running install
+[0.858s] running install_lib
+[0.872s] copying /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/build/lib/lab1_nodos_topicos_mensajes/array_publisher.py -> /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes
+[0.872s] byte-compiling /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes/array_publisher.py to array_publisher.cpython-312.pyc
+[0.873s] running install_data
+[0.873s] running install_egg_info
+[0.888s] removing '/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes-0.0.0-py3.12.egg-info' (and everything under it)
+[0.889s] Copying build/lab1_nodos_topicos_mensajes/lab1_nodos_topicos_mensajes.egg-info to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages/lab1_nodos_topicos_mensajes-0.0.0-py3.12.egg-info
+[0.890s] running install_scripts
+[0.989s] Installing nodo_simple script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.989s] Installing pub_array script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.989s] Installing pub_imu script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.990s] Installing pub_simple script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.990s] Installing sub_simple script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.991s] Installing sub_twist script to /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/lab1_nodos_topicos_mensajes
+[0.992s] writing list of installed files to '/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/install.log'
+[1.026s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/install/lab1_nodos_topicos_mensajes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab1_nodos_topicos_mensajes build --build-base /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/build install --record /home/sguajardo/UBB-ROS-2025/lab1_nodos_topicos_mensajes/build/lab1_nodos_topicos_mensajes/install.log --single-version-externally-managed install_data

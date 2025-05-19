@@ -1,0 +1,14 @@
+{
+  "package_name": "lab2_1_intefaces_custom",
+  "output_dir": "/home/sguajardo/UBB-ROS-2025/lab2_1_intefaces_custom/build/lab2_1_intefaces_custom/rosidl_generator_type_description/lab2_1_intefaces_custom",
+  "idl_tuples": [
+    "/home/sguajardo/UBB-ROS-2025/lab2_1_intefaces_custom/build/lab2_1_intefaces_custom/rosidl_adapter/lab2_1_intefaces_custom:msg/Sphere.idl",
+    "/home/sguajardo/UBB-ROS-2025/lab2_1_intefaces_custom/build/lab2_1_intefaces_custom/rosidl_adapter/lab2_1_intefaces_custom:srv/AddFourInts.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/rolling/share/geometry_msgs",
+    "std_msgs:/opt/ros/rolling/share/std_msgs",
+    "service_msgs:/opt/ros/rolling/share/service_msgs",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces"
+  ]
+}
