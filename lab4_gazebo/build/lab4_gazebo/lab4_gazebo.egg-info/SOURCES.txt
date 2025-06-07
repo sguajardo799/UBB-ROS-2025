@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+lab4_gazebo/__init__.py
+lab4_gazebo.egg-info/PKG-INFO
+lab4_gazebo.egg-info/SOURCES.txt
+lab4_gazebo.egg-info/dependency_links.txt
+lab4_gazebo.egg-info/requires.txt
+lab4_gazebo.egg-info/top_level.txt
+lab4_gazebo.egg-info/zip-safe
+launch/gazebo_model.launch.py
+models/differential-robot.gazebo.urdf
+models/differential-robot.xacro
+parameters/bridge_parameters.yaml
+resource/lab4_gazebo

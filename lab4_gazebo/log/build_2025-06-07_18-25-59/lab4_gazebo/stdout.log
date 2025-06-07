@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing lab4_gazebo.egg-info/PKG-INFO
+writing dependency_links to lab4_gazebo.egg-info/dependency_links.txt
+writing requirements to lab4_gazebo.egg-info/requires.txt
+writing top-level names to lab4_gazebo.egg-info/top_level.txt
+reading manifest file 'lab4_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'lab4_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4-gazebo.egg-link (link to .)
+
+Installed /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo
+running symlink_data
+symbolically linking /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/resource/lab4_gazebo -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/package.xml -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo
+symbolically linking /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/launch/gazebo_model.launch.py -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/launch
+creating /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models

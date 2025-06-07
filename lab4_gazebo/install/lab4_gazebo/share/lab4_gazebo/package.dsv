@@ -1,0 +1,9 @@
+source;share/lab4_gazebo/hook/pythonpath.ps1
+source;share/lab4_gazebo/hook/pythonpath.dsv
+source;share/lab4_gazebo/hook/pythonpath.sh
+source;share/lab4_gazebo/hook/ament_prefix_path.ps1
+source;share/lab4_gazebo/hook/ament_prefix_path.dsv
+source;share/lab4_gazebo/hook/ament_prefix_path.sh
+source;../../build/lab4_gazebo/share/lab4_gazebo/hook/pythonpath_develop.ps1
+source;../../build/lab4_gazebo/share/lab4_gazebo/hook/pythonpath_develop.dsv
+source;../../build/lab4_gazebo/share/lab4_gazebo/hook/pythonpath_develop.sh
