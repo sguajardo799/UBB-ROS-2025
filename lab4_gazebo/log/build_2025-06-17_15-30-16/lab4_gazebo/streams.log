@@ -1,0 +1,32 @@
+[1.072s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build
+[1.339s] running develop
+[1.519s] Removing /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4-gazebo.egg-link (link to .)
+[1.553s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build
+[1.554s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab4_gazebo build --build-base /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build install --record /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log --single-version-externally-managed install_data --force
+[1.782s] running egg_info
+[1.801s] writing build/lab4_gazebo/lab4_gazebo.egg-info/PKG-INFO
+[1.801s] writing dependency_links to build/lab4_gazebo/lab4_gazebo.egg-info/dependency_links.txt
+[1.801s] writing requirements to build/lab4_gazebo/lab4_gazebo.egg-info/requires.txt
+[1.802s] writing top-level names to build/lab4_gazebo/lab4_gazebo.egg-info/top_level.txt
+[1.842s] reading manifest file 'build/lab4_gazebo/lab4_gazebo.egg-info/SOURCES.txt'
+[1.842s] adding license file 'LICENSE'
+[1.843s] writing manifest file 'build/lab4_gazebo/lab4_gazebo.egg-info/SOURCES.txt'
+[1.843s] running build
+[1.843s] running build_py
+[1.844s] running install
+[1.849s] running install_lib
+[1.867s] creating /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo
+[1.867s] copying /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build/lib/lab4_gazebo/__init__.py -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo
+[1.868s] byte-compiling /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo/__init__.py to __init__.cpython-312.pyc
+[1.869s] running install_data
+[1.869s] copying resource/lab4_gazebo -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/ament_index/resource_index/packages
+[1.870s] copying package.xml -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo
+[1.871s] copying launch/gazebo_model.launch.py -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/launch
+[1.872s] copying models/differential-robot.xacro -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models
+[1.873s] copying models/differential-robot.gazebo.urdf -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models
+[1.874s] copying parameters/bridge_parameters.yaml -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/parameters
+[1.875s] running install_egg_info
+[1.895s] Copying build/lab4_gazebo/lab4_gazebo.egg-info to /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo-0.0.0-py3.12.egg-info
+[1.896s] running install_scripts
+[2.012s] writing list of installed files to '/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log'
+[2.041s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab4_gazebo build --build-base /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build install --record /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,21 @@
+[0.703s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab4_gazebo build --build-base /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build install --record /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log --single-version-externally-managed install_data
+[0.942s] running egg_info
+[0.961s] writing build/lab4_gazebo/lab4_gazebo.egg-info/PKG-INFO
+[0.962s] writing dependency_links to build/lab4_gazebo/lab4_gazebo.egg-info/dependency_links.txt
+[0.962s] writing requirements to build/lab4_gazebo/lab4_gazebo.egg-info/requires.txt
+[0.962s] writing top-level names to build/lab4_gazebo/lab4_gazebo.egg-info/top_level.txt
+[0.998s] reading manifest file 'build/lab4_gazebo/lab4_gazebo.egg-info/SOURCES.txt'
+[0.998s] adding license file 'LICENSE'
+[0.998s] writing manifest file 'build/lab4_gazebo/lab4_gazebo.egg-info/SOURCES.txt'
+[0.999s] running build
+[0.999s] running build_py
+[0.999s] running install
+[1.003s] running install_lib
+[1.027s] running install_data
+[1.027s] copying launch/gazebo_model_ros2control.launch.py -> /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/launch
+[1.027s] running install_egg_info
+[1.048s] removing '/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.049s] Copying build/lab4_gazebo/lab4_gazebo.egg-info to /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo-0.0.0-py3.12.egg-info
+[1.050s] running install_scripts
+[1.180s] writing list of installed files to '/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log'
+[1.212s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab4_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab4_gazebo build --build-base /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/build install --record /home/sguajardo/UBB-ROS-2025/lab4_gazebo/build/lab4_gazebo/install.log --single-version-externally-managed install_data

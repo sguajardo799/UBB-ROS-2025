@@ -1,1 +1,0 @@
-/home/sguajardo/UBB-ROS-2025/lab4_gazebo/setup.py

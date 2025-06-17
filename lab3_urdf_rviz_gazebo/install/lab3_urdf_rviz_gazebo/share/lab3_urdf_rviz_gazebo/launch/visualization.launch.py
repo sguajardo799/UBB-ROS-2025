@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    urdf_path = '/home/sguajardo/UBB-ROS-2025/lab3_urdf_rviz_gazebo/lab3_urdf_rviz_gazebo/urdf/differential-robot.urdf'
+    urdf_path = '/home/sguajardo/UBB-ROS-2025/lab3_urdf_rviz_gazebo/lab3_urdf_rviz_gazebo/urdf/1DOF-robot.urdf'
 
     with open(urdf_path,'r') as i:
         robot_desc = i.read()

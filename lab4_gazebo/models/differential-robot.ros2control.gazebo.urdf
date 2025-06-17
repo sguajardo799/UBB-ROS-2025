@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="my_first_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+    <gazebo reference="base_link">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material>
+            Gazebo/red
+        </material>
+    </gazebo>
+
+    <gazebo reference="caster">
+        <mu1>0.00002</mu1>
+        <mu2>0.00002</mu2>
+        <material>
+            Gazebo/orange
+        </material>
+    </gazebo>
+
+    <gazebo reference="drivewhl_l_link">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material>
+            Gazebo/blue
+        </material>
+    </gazebo>
+
+    <gazebo reference="drivewhl_r_link">
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <material>
+            Gazebo/blue
+        </material>
+    </gazebo>
+
+    <xacro:include filename="path/to/ros2_control.xacro"/>
+    <xacro:ros2_control prefix=""/>
+
+    <gazebo>
+        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+    </gazebo>
+
+
+</robot>
