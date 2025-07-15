@@ -1,0 +1,9 @@
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/uninstall.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/lab5_ros2control_new_gazebo_uninstall.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/test.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/edit_cache.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/rebuild_cache.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/list_install_components.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/install.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/install/local.dir
+/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo/CMakeFiles/install/strip.dir

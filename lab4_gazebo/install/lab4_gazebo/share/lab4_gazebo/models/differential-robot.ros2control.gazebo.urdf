@@ -32,7 +32,7 @@
         </material>
     </gazebo>
 
-    <xacro:include filename="path/to/ros2_control.xacro"/>
+    <xacro:include filename="ros2_control.xacro"/>
     <xacro:ros2_control prefix=""/>
 
     <gazebo>

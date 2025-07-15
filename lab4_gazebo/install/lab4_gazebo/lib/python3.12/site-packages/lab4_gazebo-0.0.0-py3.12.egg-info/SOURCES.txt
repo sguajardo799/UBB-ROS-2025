@@ -10,11 +10,10 @@ build/lab4_gazebo/lab4_gazebo.egg-info/top_level.txt
 build/lab4_gazebo/lab4_gazebo.egg-info/zip-safe
 lab4_gazebo/__init__.py
 launch/gazebo_model.launch.py
-launch/gazebo_model_ros2control.launch.py
 models/differential-robot.gazebo.urdf
-models/differential-robot.ros2control.gazebo.urdf
 models/differential-robot.xacro
-models/ros2_control.xacro
+models/two_dof.urdf
+models/two_dof.urdf.xacro
 parameters/bridge_parameters.yaml
 resource/lab4_gazebo
 test/test_copyright.py

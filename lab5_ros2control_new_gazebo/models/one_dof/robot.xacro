@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="one_dof_robot">
+
+  <!-- Includes de Gazebo y ROS2 Control -->
+  <xacro:include filename="$(find lab5_ros2control_gazebo_classic)/models/one_dof/one_dof.gazebo.xacro" />
+  <xacro:include filename="$(find lab5_ros2control_gazebo_classic)/models/one_dof/one_dof.ros2control.xacro" />
+
+  <xacro:property name="M_PI" value="3.14159274"/>
+
+  <!-- Macro de inercia para prismas rectangulares -->
+  <xacro:macro name="box_inertia" params="m w h d">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${m}"/>
+      <inertia
+        ixx="${(m/12) * (h*h + d*d)}"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="${(m/12) * (w*w + d*d)}"
+        iyz="0.0"
+        izz="${(m/12) * (w*w + h*h)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- Materiales -->
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+  <!-- Huella en el suelo -->
+  <link name="base_footprint"/>
+  <joint name="base_footprint_fixed" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Base link -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.4"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.4"/>
+      </geometry>
+    </collision>
+    <xacro:box_inertia m="5.0" w="0.2" h="0.2" d="0.4"/>
+  </link>
+
+  <!-- Junta revolución rotando sobre Z -->
+  <joint name="base_to_moving" type="revolute">
+    <parent link="base_link"/>
+    <child link="moving_link"/>
+    <origin xyz="0 0 0.45" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-${M_PI}" upper="${M_PI}" effort="10.0" velocity="2.0"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+  <!-- Moving link  -->
+  <link name="moving_link">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.2 0.1"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.2 0.1"/>
+      </geometry>
+    </collision>
+    <xacro:box_inertia m="0.3" w="0.5" h="0.2" d="0.1"/>
+  </link>
+
+  <!-- =============== Gazebo y ROS2 Control =============== -->
+  <xacro:robot_gazebo/>
+  <xacro:robot_ros2control/>
+
+</robot>

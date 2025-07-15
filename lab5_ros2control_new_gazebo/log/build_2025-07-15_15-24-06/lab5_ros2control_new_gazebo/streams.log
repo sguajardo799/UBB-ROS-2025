@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo -- -j4 -l4
+[0.051s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo -- -j4 -l4
+[0.058s] Invoking command in '/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo
+[0.065s] -- Install configuration: ""
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/launch
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/launch/one_dof_sim.launch.py
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/launch/two_dof_sim.launch.py
+[0.065s] -- Installing: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/launch/rsp.launch.py
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/config
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/config/controllers.yaml
+[0.065s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/two_dof
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/two_dof/robot.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/two_dof/two_dof.gazebo.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/two_dof/two_dof.ros2control.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/one_dof
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/one_dof/robot.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/one_dof/one_dof.ros2control.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/models/one_dof/one_dof.gazebo.xacro
+[0.066s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/ament_index/resource_index/package_run_dependencies/lab5_ros2control_new_gazebo
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/ament_index/resource_index/parent_prefix_path/lab5_ros2control_new_gazebo
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/environment/ament_prefix_path.sh
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/environment/path.sh
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/environment/path.dsv
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/local_setup.bash
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/local_setup.sh
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/local_setup.zsh
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/local_setup.dsv
+[0.067s] -- Installing: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/package.dsv
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/ament_index/resource_index/packages/lab5_ros2control_new_gazebo
+[0.067s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/cmake/lab5_ros2control_new_gazeboConfig.cmake
+[0.068s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/cmake/lab5_ros2control_new_gazeboConfig-version.cmake
+[0.068s] -- Up-to-date: /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/install/lab5_ros2control_new_gazebo/share/lab5_ros2control_new_gazebo/package.xml
+[0.069s] Invoked command in '/home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sguajardo/UBB-ROS-2025/lab5_ros2control_new_gazebo/build/lab5_ros2control_new_gazebo

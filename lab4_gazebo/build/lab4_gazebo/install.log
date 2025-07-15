@@ -2,12 +2,11 @@
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo/__pycache__/__init__.cpython-312.pyc
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/ament_index/resource_index/packages/lab4_gazebo
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/package.xml
-/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/launch/gazebo_model_ros2control.launch.py
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/launch/gazebo_model.launch.py
-/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/differential-robot.ros2control.gazebo.urdf
-/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/ros2_control.xacro
+/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/two_dof.urdf.xacro
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/differential-robot.xacro
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/differential-robot.gazebo.urdf
+/home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/models/two_dof.urdf
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/share/lab4_gazebo/parameters/bridge_parameters.yaml
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo-0.0.0-py3.12.egg-info/requires.txt
 /home/sguajardo/UBB-ROS-2025/lab4_gazebo/install/lab4_gazebo/lib/python3.12/site-packages/lab4_gazebo-0.0.0-py3.12.egg-info/PKG-INFO
